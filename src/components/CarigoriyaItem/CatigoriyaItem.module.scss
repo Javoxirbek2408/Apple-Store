@@ -1,0 +1,31 @@
+.catigore-item {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: rgb(109, 108, 108) !important;
+
+    span {
+        div {
+            svg {
+                color: #ccc !important;
+            }
+        }
+    }
+
+    &:hover {
+        color: #0071E4 !important;
+
+        span {
+            div {
+                svg {
+                    color:#0071E4 !important
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,41 @@
+.header-main {
+    padding-top: 14px;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+
+        &_box {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        input {
+            width: 500px;
+            height: 45px;
+            padding-left: 24px;
+            border-radius: 8px;
+            border-width: 1px;
+            outline: none;
+            border-bottom: none;
+            border: 1px solid #B7B7B7;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+
+        }
+    }
+
+    .blueBtn {
+        width: 215px;
+        height: 56px;
+        border-radius: 16px;
+        gap: 4px;
+
+    }
+}

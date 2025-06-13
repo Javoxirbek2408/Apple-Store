@@ -5,6 +5,8 @@ import styles from './HeaderTop.module.scss'
 import { Link } from 'react-router-dom'
 import { WhatsapIcon } from '../../../../../assets/icons/WhatsapIcon'
 import { SOCIAL_LINKS } from '../../../../../constans/app'
+import { TeligramIcon } from '../../../../../assets/icons/TeligramIcon'
+import { WkIcon } from '../../../../../assets/icons/WkIcon'
 
 const cn = classNames.bind(styles)
 export const HeaderTop = () => {
@@ -16,7 +18,7 @@ export const HeaderTop = () => {
             <Typography>
               Ваш город:
             </Typography>
-            <Select value={'Moskva'}>
+            <Select className={cn("header-top__left__select")} variant="standard" defaultValue={"Moskva"}>
               <MenuItem value='Moskva' >Moskva </MenuItem>
               <MenuItem value='Sank-peterburg' >Sank-peterburg </MenuItem>
               <MenuItem value='Piter'>Piter </MenuItem>
@@ -27,10 +29,10 @@ export const HeaderTop = () => {
               <WhatsapIcon />
             </Link>
             <Link target='_blank' to={SOCIAL_LINKS.telegrma}>
-              <WhatsapIcon />
+              <TeligramIcon />
             </Link>
             <Link target='_blank' to={SOCIAL_LINKS.wk}>
-              <WhatsapIcon />
+              <WkIcon />
             </Link>
           </Box>
         </Box>

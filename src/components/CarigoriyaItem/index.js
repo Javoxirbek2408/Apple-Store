@@ -1,0 +1,1 @@
+export { Catigoriya } from './Catigoriya'

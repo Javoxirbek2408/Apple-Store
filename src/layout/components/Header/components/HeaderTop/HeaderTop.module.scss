@@ -1,12 +1,18 @@
 .header-top {
     padding: 10px;
+    background: #F9F9F9;
+
 
     &__content {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+
+
     }
+
 
     &__left {
         display: flex;
@@ -14,7 +20,7 @@
         gap: 8px;
     }
 
-    &__right {  
+    &__right {
         gap: 8px;
         display: flex;
         align-items: center;
