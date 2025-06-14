@@ -1,0 +1,35 @@
+.PhoneCard {
+    width: 100%;
+    background: #000;
+    height: 360px;
+    display: flex;
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: 88px;
+        h1 {
+            color: white;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 100%;
+        }
+        h4 {
+            margin-top: 16px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: white;
+        }
+    }
+
+    .btn {
+        margin-top: 24px;
+        background: blue;
+        color: white;
+        width: 160px;
+        height: 56px;
+        border-radius: 8px;
+        gap: 8px;
+    }
+}

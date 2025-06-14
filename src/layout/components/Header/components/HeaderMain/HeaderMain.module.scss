@@ -30,7 +30,18 @@
 
         }
     }
-
+.greenBtn{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 16px;
+        width: 266px;
+        height: 56px;
+        background: #6fd91c ;
+        color: white;
+        border-radius: 8px;
+        gap: 8px;
+}
     .blueBtn {
         width: 215px;
         height: 56px;

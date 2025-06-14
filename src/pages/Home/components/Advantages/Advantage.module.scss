@@ -1,0 +1,219 @@
+.advantage {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    .bankImg {
+        width: 160px;
+        height: 160px;
+    }
+    &__cardTwo {
+        width: 248px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        border-radius: 16px;
+        background: linear-gradient(180.04deg, #e685ff 0.04%, #f2f2f2 65.84%);
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2 {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+            .desctiption {
+                color: #585656;
+                margin-top: 8px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+        }
+        .btn {
+            margin-top: 50px;
+            width: 212px;
+            height: 56px;
+            background: transparent;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 100%;
+        }
+    }
+    .advantage-card {
+        width: 248px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        border-radius: 16px;
+        background: linear-gradient(180.04deg, #fe94a6 0.04%, #f2f2f2 65.84%);
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+            .desctiption {
+                color: #585656;
+                margin-top: 8px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+        }
+        .btn {
+            margin-top: 99px;
+            width: 212px;
+            height: 56px;
+            background: transparent;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 100%;
+        }
+    }
+    &__cardThere {
+        width: 248px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        border-radius: 16px;
+        background: linear-gradient(180.04deg, #7de9ff 0.04%, #f2f2f2 65.84%);
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+            .desctiption {
+                color: #585656;
+                margin-top: 8px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+        }
+        .btn {
+            margin-top: 99px;
+            width: 212px;
+            height: 56px;
+            background: transparent;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 100%;
+        }
+    }
+    &__cardFour {
+        width: 248px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        border-radius: 16px;
+        background: linear-gradient(180.04deg, #ffe685 0.04%, #f7f7f7 65.84%);
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+            .desctiption {
+                color: #585656;
+                margin-top: 8px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+        }
+        .btn {
+            margin-top: 99px;
+            width: 212px;
+            height: 56px;
+            background: transparent;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 100%;
+        }
+    }
+    &__cardFive {
+        width: 248px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        border-radius: 16px;
+        background: linear-gradient(180.04deg, #adffc1 0.04%, #f2f2f2 65.84%), linear-gradient(0deg, #f2f2f2, #f2f2f2);
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+            .desctiption {
+                color: #585656;
+                margin-top: 8px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+        }
+        .btn {
+            margin-top: 99px;
+            width: 212px;
+            height: 56px;
+            background: transparent;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 100%;
+        }
+    }
+}

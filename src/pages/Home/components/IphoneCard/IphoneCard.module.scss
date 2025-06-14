@@ -1,0 +1,122 @@
+.IphoneCard {
+    width: 300px;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+
+    box-shadow: 4px 4px 11px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 4px 4px 11px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 4px 11px -1px rgba(0, 0, 0, 0.75);
+    &__top {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        &_raytingIcon {
+            width: 24px;
+            height: 24px;
+        }
+        &_boxOne {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            :nth-child(2) {
+                color: blue;
+            }
+        }
+        &_boxTwo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        &_heartIcon {
+            width: 24px !important;
+            height: 24px !important     ;
+        }
+        &_link {
+            width: 14px !important;
+            height: 14px !important     ;
+        }
+    }
+    &__title {
+        padding-top: 18px;
+        padding-bottom: 9px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    &__dots {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        .dot {
+            width: 16px;
+            height: 16px;
+        }
+        p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+    }
+    &__price {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        justify-content: space-between;
+
+        &_old {
+            padding-top: 12px;
+            color: #878787;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-decoration: line-through;
+        }
+        &_new {
+            padding-top: 4px;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+    }
+    .karzinaBtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 16px;
+        width: 266px;
+        height: 56px;
+        background: blue;
+        color: white;
+        border-radius: 8px;
+        gap: 8px;
+    }
+    .karzinaBtn__true {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 16px;
+        width: 266px;
+        height: 56px;
+        background: #6fd91c;
+        color: white;
+        border-radius: 8px;
+        gap: 8px;
+    }
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 8px;
+        :first-child {
+            color: blue;
+        }
+    }
+}

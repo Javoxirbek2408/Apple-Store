@@ -1,0 +1,1 @@
+export { IphoniCard } from './IphoniCard'

@@ -11,7 +11,7 @@ import { HmBoxLinkIcon } from '../../../../../assets/icons/HmBoxLinkIcon'
 
 
 const hm = classNames.bind(styles)
-export const HeaderMain = ({ starIcon, onclick, color, variant, size, title, endIcon }) => {
+export const HeaderMain = ({ starIcon, onclick, className, color, variant, size, title, endIcon }) => {
   return (
     <Box className={hm("header-main")}>
       <Container className={hm("header-main__container")}>
@@ -19,7 +19,7 @@ export const HeaderMain = ({ starIcon, onclick, color, variant, size, title, end
         <Box className={hm('header-main__container_box')}>
           <Input startIcon={<InputSearchIcon className={hm('serarchIcon')} />} placeholder='Поиск по каталогу товаров' type="search" /> <HmBoxHeartIcon /><HmBoxLinkIcon />
         </Box>
-        <Button className={hm('blueBtn')} variant="contained" color='success' startIcon={<ShopBag />} endIcon={<ButNumberIcon />} >  {title = "в корзине"}</Button>
+        <Button className={hm('greenBtn')} variant="contained" color='success' startIcon={<ShopBag />} endIcon={<ButNumberIcon />} >  {title = "в корзине"}</Button>
 
       </Container>
     </Box>

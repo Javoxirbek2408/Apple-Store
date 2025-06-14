@@ -1,0 +1,92 @@
+.HomeBottom {
+    width: 100%;
+    height: 481px;
+    background: #f9f9f9;
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 88px;
+    }
+    &__imgPeper {
+        margin-top: 59px;
+        width: 484px;
+        height: 371px;
+    }
+    &__Card {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+        &_text {
+            margin-top: 8px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #585656;
+        }
+    }
+    &__CardNumber {
+        width: 486px;
+        background: linear-gradient(90.34deg, #f7355d 0.3%, #9747ff 101.33%);
+        margin-top: 25px;
+        height: 196px;
+        border-radius: 16px;
+
+        h2 {
+            padding: 16px 40px;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: white;
+        }
+        &_text {
+            color: white;
+            padding-left: 40px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+        &_div {
+            padding-left: 40px;
+            margin-top: 16px;
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            input {
+                width: 246px;
+                height: 56px;
+                border-radius: 8px;
+                border-width: 1px;
+                outline: none;
+                border: none;
+                padding-left: 16px;
+                color: #878787;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 100%;
+                letter-spacing: 0%;
+            }
+        }
+    }
+    .btnClick {
+        width: 160px;
+        background: #e7e7e7;
+        height: 56px;
+        border-radius: 8px;
+        gap: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #585656;
+    }   
+}

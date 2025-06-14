@@ -1,0 +1,58 @@
+.Slider-header {
+    display: flex;
+    flex-direction: column;
+
+    .Slider-head {
+        width: 100%;
+        height: 480px;
+        background: #d0eafc;
+        &__slider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 98px;
+            gap: 48px;
+
+            .Slider-head__Box {
+                div {
+                    display: flex;
+                    gap: 16px;
+                    align-items: self-end;
+                    .Slider-head-slider__prtitle {
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                    }
+                    .Slider-head-slider__prnumber {
+                        font-weight: 400;
+                        font-size: 48px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                    }
+                }
+                .slider-button {
+                    margin-top: 19px;
+                    width: 160px;
+                    height: 56px;
+                    border-radius: 8px;
+                    gap: 8px;
+                    background: #0071e4;
+                }
+            }
+        }
+        &__Box {
+            margin-bottom: 124px !important;
+        }
+        &__title {
+            padding-top: 24px;
+            padding-bottom: 17px;
+            display: flex;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+    }
+}
