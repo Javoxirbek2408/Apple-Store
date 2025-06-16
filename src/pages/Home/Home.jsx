@@ -18,6 +18,9 @@ export const Home = () => {
 
         <Box className={cn('home')}>
             <SliderHome />
+            <Container>
+                <h2 className={cn("link")}>Самое популярное</h2>
+            </Container>
             <Container className={cn("Iphon-card")} >
                 {Array.from({ length: 12 }).map(() => {
                     return <IphoniCard />
@@ -27,6 +30,9 @@ export const Home = () => {
             <TextContent />
             <PhoneCard />
             <TextContent />
+            <Container>
+                <h2 className={cn("link")}>Новинки</h2>
+            </Container>
             <Container className={cn("Iphon-card")} >
                 {Array.from({ length: 12 }).map(() => {
                     return <IphoniCard />

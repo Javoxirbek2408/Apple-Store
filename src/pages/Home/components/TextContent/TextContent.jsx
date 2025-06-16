@@ -10,7 +10,9 @@ export const TextContent = () => {
     return (
 
         <Box className={cn("text-content")}>
-            <h1>Новые модели Айфонов по выгодным ценам</h1>                <Typography className={cn("text-content__text")}>
+            <Container>
+                <h1>Новые модели Айфонов по выгодным ценам</h1>
+                <Typography className={cn("text-content__text")}>
 
                     Для тех, кто хочет приобрести новый телефон магазин Istoreapple.ru предлагает: <br /><br />
 
@@ -24,6 +26,7 @@ export const TextContent = () => {
                     способы оплаты! <br />
                     Товары, представленные на официальном сайте Istoreapple.ru, сертифицированы. Мы занимаемся продажей айфонов  2013 года. Вы всегда можете прочитать отзывы o <br />  покупке наших клиентов, позвонить в магазин и получить консультацию по любой модели Apple.
                 </Typography>
+            </Container>
         </Box>
     )
 }
