@@ -19,7 +19,7 @@ export const Home = () => {
         <Box className={cn('home')}>
             <SliderHome />
             <Container className={cn("Iphon-card")} >
-                {num.map(() => {
+                {Array.from({ length: 12 }).map(() => {
                     return <IphoniCard />
 
                 })}
@@ -28,7 +28,7 @@ export const Home = () => {
             <PhoneCard />
             <TextContent />
             <Container className={cn("Iphon-card")} >
-                {num2.map(() => {
+                {Array.from({ length: 12 }).map(() => {
                     return <IphoniCard />
 
                 })}
