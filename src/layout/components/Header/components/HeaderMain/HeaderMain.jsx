@@ -17,7 +17,9 @@ export const HeaderMain = ({ starIcon, onclick, className, color, variant, size,
       <Container className={hm("header-main__container")}>
         <Button className={hm('blueBtn')} variant="contained" startIcon={<ThreePointsIcon />}>{title = "Каталог товаров"}</Button>
         <Box className={hm('header-main__container_box')}>
-          <Input startIcon={<InputSearchIcon className={hm('serarchIcon')} />} placeholder='Поиск по каталогу товаров' type="search" /> <HmBoxHeartIcon /><HmBoxLinkIcon />
+          <Input placeholder='Поиск по каталогу товаров' type="search" />
+          <HmBoxHeartIcon />
+          <HmBoxLinkIcon />
         </Box>
         <Button className={hm('greenBtn')} variant="contained" color='success' startIcon={<ShopBag />} endIcon={<ButNumberIcon />} >  {title = "в корзине"}</Button>
 

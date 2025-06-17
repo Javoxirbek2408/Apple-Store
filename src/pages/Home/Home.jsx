@@ -8,12 +8,11 @@ import { TextContent } from './components/TextContent/TextContent'
 import { PhoneCard } from './components/phoneCard'
 import { AdvantageCard } from './components/Advantages/AdvantageCard'
 import { HomeBottom } from './components/HomeBottom/HomeBottom'
+import { v4 as uuid } from 'uuid';
 
 
 const cn = classNames.bind(styles)
 export const Home = () => {
-    let num = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    let num2 = [0, 0, 0, 0, 0, 0, 0, 0]
     return (
 
         <Box className={cn('home')}>
@@ -22,9 +21,8 @@ export const Home = () => {
                 <h2 className={cn("link")}>Самое популярное</h2>
             </Container>
             <Container className={cn("Iphon-card")} >
-                {Array.from({ length: 12 }).map(() => {
-                    return <IphoniCard />
-
+                {Array.from({ length: 12 }).map(() => {                
+                    return <IphoniCard key={uuid()}/>
                 })}
             </Container>
             <TextContent />
@@ -35,7 +33,7 @@ export const Home = () => {
             </Container>
             <Container className={cn("Iphon-card")} >
                 {Array.from({ length: 12 }).map(() => {
-                    return <IphoniCard />
+                    return <IphoniCard key={uuid()} />
 
                 })}
             </Container>
